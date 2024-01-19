@@ -1,71 +1,19 @@
-Title
+htmlcss-discord
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
-
-## Install & Dependence
-- python
-- pytorch
-- numpy
-
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
-
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
-
-
-## Directory Hierarchy
-```
-|—— css
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+Ciao Ragazzi,
+Esercizio di oggi:
+cartella/repo htmlcss-discord
+Copiamo il lavoro di ieri in una nuova repo, attenzione, non duplicate l’intera cartella, altrimenti copierete anche le impostazioni di git!
+Nel repo nuovo incolliamo solo index.html, css/style.css e cartella img/ con le immagini.
+**Descrizione**
+Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
+Partiamo dai blocchi colorati e solo quando tutto funziona passiamo al dettaglio, sezione per sezione.
+**Consigli**
+Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
+Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po’ con unità relative senza però crearci nuove difficoltà, tanto meglio.
+Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
+NB
+La parte relativa alle onde NON consideratela. Lasciate i blocchi grigi dritti.
+BONUS
+Mettete le onde :occhiolino:  (solo a lavoro finito!! :orco_giapponese:)
+Buon lavoro e buon weekend!

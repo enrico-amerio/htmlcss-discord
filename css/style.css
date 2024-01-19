@@ -10,8 +10,15 @@
   
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: sans-serif, arial, helvetica;
+  /* font-size: 20px; */
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 .container{
   padding-top: 50px;
@@ -24,13 +31,23 @@ body{
   border-style: dashed;
   border-width: 2px;
   height:520px;
-  
-  
-  
   }
+.btn{
+  padding: 10px 15px;
+  border-radius: 100px;
+  background-color: white;
+  font-weight: 500;
+  border: 2px solid white;
+  font-size: 14px;
+
+}
+.btn:hover {
+  box-shadow: 0 10px 16px 0 rgba(108, 1, 196, 0.24),0 17px 50px 0 rgba(108, 1, 196,0.19);
+  
+}
   /* HEADER */
   header{
-  background-color: #ADD8E6;
+  background-color: #255EE9;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -40,34 +57,28 @@ body{
   display: flex;
   justify-content:center;
   align-items: center;
-  width: 95%;
+  width: 75%;
   max-width: 1400px;
+  font-weight: 600;
+  font-size: 14px;
   
-  
-  
-}
-.logo, .nav, .login{
-  background-color: #DAA520;
-  border-style: dashed;
-  border-width: 2px;
-
 }
 .logo{
   display: flex;
-  padding:8px 190px 8px 10px;
+  padding:8px 130px 8px 10px;
 
   
 }
 .nav{
   padding-top: 8px;
   padding-bottom: 8px;
-  flex-grow: 1;
+  flex-grow: 1; 
   /* padding:8px 273px; */
   
 }
 ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
 }
 li{
@@ -75,32 +86,52 @@ li{
 }
 .login{
   display: flex;
-  padding:8px 10px 8px 190px;
+  padding:8px 10px 8px 130px;
   
 }
 /* HERO */
 .container.hero{
-  background-color:#00008B;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   
 }
-
 .box.top{
-  background-color: #EE82EE;
   width: 75%;
-  height: 400px;
+  height: 355px;
   margin: 0 auto;
-  border-style: dashed;
-  border-width: 2px;
+  border: none; /*DEBUG */
   max-width: 960px;
-
+  color: white;
+  text-align: center;
+  
 }
+.box.top > h1 {
+  margin: 30px;
+  font-size: 50px;
+}
+.box.top > p{
+  
+  line-height: 25px;
+  font-weight: 500;
+}
+.box.top > a > button{
+  margin: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+.btn.black{
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
 /* FIRST SECTION */
 .second.container{
-  border-top: 2px #ADD8E6 solid;
+  
   
 }
 .box.one-left{
-  background-color: #1E90FF;
+  background-image: url(../img/item1.svg);
   width: 55%;
   max-width: 700px;
 }
