@@ -27,6 +27,9 @@ a:hover{
   justify-content: center;
   
 }
+.grey.container{
+  background-color:#F6F6F6;
+}
 .box{
   border-style: dashed;
   border-width: 2px;
@@ -39,7 +42,7 @@ a:hover{
   font-weight: 500;
   border: 2px solid white;
   font-size: 14px;
-
+  
 }
 .btn:hover {
   box-shadow: 0 10px 16px 0 rgba(108, 1, 196, 0.24),0 17px 50px 0 rgba(108, 1, 196,0.19);
@@ -150,10 +153,6 @@ li{
   line-height: 25px;
 }
 /* DOVE TROVARSI */
-.third.container{
-  background-color:#D3D3D3;
-  
-}
 .box.two-left{
   background-color:#FFC0CB;
   width:35%;
@@ -165,9 +164,6 @@ li{
   max-width: 700px;
 }
  /* FIFTH SECTION*/
-.grey.container{
-  background-color:#D3D3D3;
-}
  .box.green{
   background-color: #228B22;
   width:90%;
